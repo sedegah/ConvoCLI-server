@@ -1,2 +1,3 @@
 // Optimize database connection pooling 1758583492
 // Update README with deployment tips 1758583492
+// Improve CLI argument validation 1758583492
