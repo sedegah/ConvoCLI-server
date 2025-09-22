@@ -1,20 +1,50 @@
 # ConvoCLI – Server
 
-A lightweight, RESTful backend that powers the ConvoCLI ecosystem.
-This server provides secure API endpoints for real-time messaging, conversation management, and user authentication, enabling seamless communication with the ConvoCLI Client.
+A Spring Boot–based backend that powers the **ConvoCLI** ecosystem.
+This server provides secure RESTful APIs and WebSocket endpoints for real-time messaging, conversation management, and user authentication—built for seamless integration with the ConvoCLI client.
 
 ---
 
 ## Features
 
-* **REST API** – Exposes clear, well-documented endpoints for sending and receiving messages.
-* **Stateless Design** – Scalable architecture using JWT-based authentication.
-* **Configurable** – Environment-based settings for database, security, and logging.
-* **Cross-Platform Deployment** – Runs on Linux, macOS, or Windows.
+* **REST + WebSocket APIs** – Real-time messaging and conversation endpoints.
+* **Spring Security** – JWT-based authentication and role management.
+* **Modular Architecture** – Clear separation of config, controller, service, and repository layers.
+* **Database Ready** – Works with PostgreSQL, MySQL, or H2 for development.
+* **Production Friendly** – Easily deployable as a single JAR or to container platforms.
 
 ---
 
-## Installation
+## Project Structure
+
+```
+ConvoCLI-server/
+├─ src/main/java/io/convocli/
+│  ├─ config/        # App configuration & security setup
+│  ├─ controller/    # REST controllers
+│  ├─ model/         # Entity classes
+│  ├─ repository/    # Spring Data JPA repositories
+│  ├─ security/      # JWT filters & authentication logic
+│  ├─ service/       # Business services
+│  └─ ws/            # WebSocket handlers
+│  └─ Application.java
+├─ src/main/resources/
+│  ├─ application.yml  # Environment-specific settings
+│  └─ static/          # Static assets if needed
+└─ target/             # Compiled build output
+```
+
+---
+
+## Prerequisites
+
+* **Java 17+** (or the version defined in your `pom.xml`)
+* **Maven 3.8+**
+* Database (PostgreSQL/MySQL) or H2 for development.
+
+---
+
+## Installation & Running
 
 ### 1. Clone the Repository
 
@@ -23,71 +53,42 @@ git clone https://github.com/sedegah/ConvoCLI-server.git
 cd ConvoCLI-server
 ```
 
-### 2. Create and Activate a Virtual Environment (Python 3.9+)
+### 2. Configure Environment
+
+Edit `src/main/resources/application.yml` (or `.properties`) to set:
+
+```yaml
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/convocli
+    username: your_db_user
+    password: your_db_password
+  jwt:
+    secret: your_jwt_secret
+```
+
+### 3. Build & Run
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+mvn clean install
+java -jar target/ConvoCLI-server-0.0.1-SNAPSHOT.jar
 ```
 
-### 3. Configure Environment Variables
-
-Create a `.env` file in the project root with the following:
-
-```
-SECRET_KEY=your_secret_key
-DATABASE_URL=sqlite:///data.db    # or your preferred DB
-HOST=0.0.0.0
-PORT=8000
-```
+The API will start on: **[http://localhost:8080](http://localhost:8080)**
 
 ---
 
-## Usage
+## API Endpoints (Examples)
 
-Start the development server:
+| Method | Endpoint             | Description                    |
+| ------ | -------------------- | ------------------------------ |
+| POST   | `/api/auth/login`    | Authenticate and get JWT token |
+| GET    | `/api/conversations` | List conversations             |
+| POST   | `/api/messages`      | Send a message                 |
+| WS     | `/ws/messages`       | WebSocket real-time messaging  |
 
-```bash
-uvicorn app.main:app --reload
-```
-
-Production example (using Gunicorn + Uvicorn workers):
-
-```bash
-gunicorn -k uvicorn.workers.UvicornWorker app.main:app
-```
-
-The server will be available at:
-`http://localhost:8000`
-
----
-
-## API Overview
-
-* `POST /login` – Authenticate and obtain a JWT token.
-* `POST /messages` – Send a message to a conversation.
-* `GET /conversations` – Retrieve a list of conversations.
-* `GET /messages/{id}` – Fetch messages from a specific conversation.
-
-*Detailed API documentation is available via the built-in OpenAPI/Swagger UI at:*
-`http://localhost:8000/docs`
-
----
-
-## Project Structure
-
-```
-ConvoCLI-server/
-├─ app/
-│  ├─ main.py         # Application entry point
-│  ├─ models.py       # Database models
-│  ├─ routes/         # API route definitions
-│  ├─ services/       # Business logic
-│  └─ utils.py        # Utility functions
-├─ requirements.txt
-└─ README.md
-```
+Swagger/OpenAPI documentation (if enabled) is available at:
+`http://localhost:8080/swagger-ui.html`
 
 ---
 
@@ -97,3 +98,4 @@ ConvoCLI-server/
 GitHub: [@sedegah](https://github.com/sedegah)
 
 ---
+
