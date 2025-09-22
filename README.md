@@ -1,7 +1,7 @@
 # ConvoCLI – Server
 
 A Spring Boot–based backend that powers the **ConvoCLI** ecosystem.
-This server provides secure RESTful APIs and WebSocket endpoints for real-time messaging, conversation management, and user authentication—built for seamless integration with the ConvoCLI client.
+This server provides secure RESTful APIs and WebSocket endpoints for real-time messaging, conversation management, and user authentication built for seamless integration with the ConvoCLI client.
 
 ---
 
