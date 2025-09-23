@@ -10,3 +10,4 @@
 // Improve CLI argument validation 1758583619
 // Refactor WebSocket message parser 1758583619
 // Upgrade dependencies to latest minor versions 1758583619
+// Add rate limiting for API endpoints 1758637084
