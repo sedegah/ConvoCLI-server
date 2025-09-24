@@ -20,3 +20,4 @@
 // Fix race condition in session handler 1758637084
 // Upgrade dependencies to latest minor versions 1758637084
 // Add rate limiting for API endpoints 1758637084
+// Improve logging with structured JSON output 1758723336
