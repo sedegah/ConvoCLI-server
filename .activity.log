@@ -31,3 +31,4 @@
 // Enable CORS for specific origins 1758809930
 // Improve logging with structured JSON output 1758809930
 // Optimize database connection pooling 1758809930
+// Add REST endpoint for health check 1758896132
