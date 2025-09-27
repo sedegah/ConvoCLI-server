@@ -35,3 +35,4 @@
 // Refactor WebSocket message parser 1758896132
 // Upgrade dependencies to latest minor versions 1758896132
 // Add automated integration tests 1758982455
+// Update README with deployment tips 1758982455
