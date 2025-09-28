@@ -43,3 +43,4 @@
 // Refactor WebSocket message parser 1758982455
 // Fix race condition in session handler 1758982455
 // Enable CORS for specific origins 1758982455
+// Improve CLI argument validation 1759068810
