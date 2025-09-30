@@ -60,3 +60,4 @@
 // Refactor WebSocket message parser 1759155494
 // Refactor authentication middleware 1759155494
 // Add REST endpoint for health check 1759241892
+// Improve logging with structured JSON output 1759241892
