@@ -59,3 +59,4 @@
 // Enable CORS for specific origins 1759155494
 // Refactor WebSocket message parser 1759155494
 // Refactor authentication middleware 1759155494
+// Add REST endpoint for health check 1759241892
