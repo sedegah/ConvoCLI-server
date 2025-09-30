@@ -61,3 +61,4 @@
 // Refactor authentication middleware 1759155494
 // Add REST endpoint for health check 1759241892
 // Improve logging with structured JSON output 1759241892
+// Improve CLI argument validation 1759241892
