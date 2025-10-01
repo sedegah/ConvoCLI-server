@@ -66,3 +66,4 @@
 // Improve logging with structured JSON output 1759328308
 // Fix race condition in session handler 1759328308
 // Add automated integration tests 1759328308
+// Refactor WebSocket message parser 1759328308
