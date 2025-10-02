@@ -76,3 +76,4 @@
 // Optimize database connection pooling 1759414630
 // Update README with deployment tips 1759414630
 // Refactor WebSocket message parser 1759414630
+// Add rate limiting for API endpoints 1759414630
