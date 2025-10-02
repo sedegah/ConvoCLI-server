@@ -79,3 +79,4 @@
 // Add rate limiting for API endpoints 1759414630
 // Add REST endpoint for health check 1759414631
 // Add rate limiting for API endpoints 1759414631
+// Enable CORS for specific origins 1759414631
