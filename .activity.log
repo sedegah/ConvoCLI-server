@@ -82,3 +82,4 @@
 // Enable CORS for specific origins 1759414631
 // Refactor WebSocket message parser 1759500990
 // Refactor authentication middleware 1759500990
+// Improve logging with structured JSON output 1759500990
