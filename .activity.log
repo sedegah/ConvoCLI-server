@@ -103,3 +103,4 @@
 // Add REST endpoint for health check 1759673647
 // Improve error handling for invalid payloads 1759673647
 // Add rate limiting for API endpoints 1759673647
+// Enable CORS for specific origins 1759760275
