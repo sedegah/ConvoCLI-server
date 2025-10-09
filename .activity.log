@@ -148,3 +148,4 @@
 // Optimize database connection pooling 1760019497
 // Improve error handling for invalid payloads 1760019497
 // Update README with deployment tips 1760023339
+// Add REST endpoint for health check 1760023339
