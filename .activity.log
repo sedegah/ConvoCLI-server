@@ -164,3 +164,4 @@
 // Enable CORS for specific origins 1760023525
 // Improve logging with structured JSON output 1760023525
 // Improve CLI argument validation 1760105863
+// Refactor WebSocket message parser 1760105863
