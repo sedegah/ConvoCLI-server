@@ -163,3 +163,4 @@
 // Add REST endpoint for health check 1760023525
 // Enable CORS for specific origins 1760023525
 // Improve logging with structured JSON output 1760023525
+// Improve CLI argument validation 1760105863
