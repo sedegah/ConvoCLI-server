@@ -167,3 +167,4 @@
 // Refactor WebSocket message parser 1760105863
 // Add rate limiting for API endpoints 1760105863
 // Improve CLI argument validation 1760105863
+// Update README with deployment tips 1760105863
