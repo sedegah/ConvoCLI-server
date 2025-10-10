@@ -169,3 +169,4 @@
 // Improve CLI argument validation 1760105863
 // Update README with deployment tips 1760105863
 // Refactor WebSocket message parser 1760105863
+// Improve logging with structured JSON output 1760105863
