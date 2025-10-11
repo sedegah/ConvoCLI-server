@@ -172,3 +172,4 @@
 // Improve logging with structured JSON output 1760105863
 // Add REST endpoint for health check 1760105863
 // Add REST endpoint for health check 1760105863
+// Refactor WebSocket message parser 1760192007
