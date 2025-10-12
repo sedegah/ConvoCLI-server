@@ -185,3 +185,4 @@
 // Fix race condition in session handler 1760278454
 // Add REST endpoint for health check 1760278454
 // Add REST endpoint for health check 1760278454
+// Improve CLI argument validation 1760278454
