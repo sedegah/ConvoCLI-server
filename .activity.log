@@ -192,3 +192,4 @@
 // Fix race condition in session handler 1760365147
 // Fix race condition in session handler 1760365147
 // Improve CLI argument validation 1760365147
+// Enable CORS for specific origins 1760365147
