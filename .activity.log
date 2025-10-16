@@ -218,3 +218,4 @@
 // Add REST endpoint for health check 1760624361
 // Improve error handling for invalid payloads 1760624361
 // Update README with deployment tips 1760624361
+// Improve logging with structured JSON output 1760624361
