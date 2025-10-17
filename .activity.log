@@ -226,3 +226,4 @@
 // Fix race condition in session handler 1760710679
 // Add rate limiting for API endpoints 1760710679
 // Enable CORS for specific origins 1760710679
+// Improve CLI argument validation 1760710679
