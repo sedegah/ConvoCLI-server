@@ -239,3 +239,4 @@
 // Add rate limiting for API endpoints 1760883278
 // Refactor WebSocket message parser 1760883278
 // Add REST endpoint for health check 1760883278
+// Add REST endpoint for health check 1760883278
