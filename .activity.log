@@ -237,3 +237,4 @@
 // Improve logging with structured JSON output 1760796889
 // Enable CORS for specific origins 1760883278
 // Add rate limiting for API endpoints 1760883278
+// Refactor WebSocket message parser 1760883278
