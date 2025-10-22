@@ -254,3 +254,4 @@
 // Upgrade dependencies to latest minor versions 1761142791
 // Add REST endpoint for health check 1761142791
 // Enable CORS for specific origins 1761142791
+// Add rate limiting for API endpoints 1761142791
