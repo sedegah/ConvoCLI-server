@@ -279,3 +279,4 @@
 // Update README with deployment tips 1761661161
 // Refactor authentication middleware 1761661161
 // Refactor authentication middleware 1761747567
+// Enable CORS for specific origins 1761747567
