@@ -293,3 +293,4 @@
 // Refactor WebSocket message parser 1761833941
 // Upgrade dependencies to latest minor versions 1761833941
 // Add REST endpoint for health check 1761833941
+// Improve error handling for invalid payloads 1761833941
