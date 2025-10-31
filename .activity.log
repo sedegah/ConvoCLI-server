@@ -296,3 +296,4 @@
 // Improve error handling for invalid payloads 1761833941
 // Enable CORS for specific origins 1761833941
 // Optimize database connection pooling 1761920315
+// Add rate limiting for API endpoints 1761920315
