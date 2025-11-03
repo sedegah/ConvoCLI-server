@@ -320,3 +320,4 @@
 // Improve logging with structured JSON output 1762179531
 // Add automated integration tests 1762179531
 // Improve error handling for invalid payloads 1762179531
+// Improve CLI argument validation 1762179531
