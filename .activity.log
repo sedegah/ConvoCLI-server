@@ -380,3 +380,4 @@
 // Update README with deployment tips 1762870764
 // Fix race condition in session handler 1762870764
 // Improve CLI argument validation 1762870764
+// Refactor WebSocket message parser 1762957185
