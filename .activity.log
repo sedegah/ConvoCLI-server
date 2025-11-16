@@ -411,3 +411,4 @@
 // Improve CLI argument validation 1763302533
 // Enable CORS for specific origins 1763302533
 // Refactor authentication middleware 1763302533
+// Add REST endpoint for health check 1763302533
