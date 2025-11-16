@@ -409,3 +409,4 @@
 // Optimize database connection pooling 1763216129
 // Refactor WebSocket message parser 1763302533
 // Improve CLI argument validation 1763302533
+// Enable CORS for specific origins 1763302533
