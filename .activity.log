@@ -450,3 +450,4 @@
 // Improve CLI argument validation 1763993989
 // Enable CORS for specific origins 1763993989
 // Improve CLI argument validation 1763993989
+// Add REST endpoint for health check 1763993989
