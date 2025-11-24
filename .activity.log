@@ -441,3 +441,4 @@
 // Improve logging with structured JSON output 1763907356
 // Upgrade dependencies to latest minor versions 1763907356
 // Improve CLI argument validation 1763907356
+// Add automated integration tests 1763993989
