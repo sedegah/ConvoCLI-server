@@ -477,3 +477,4 @@
 // Improve error handling for invalid payloads 1764339540
 // Update README with deployment tips 1764339540
 // Fix race condition in session handler 1764339540
+// Enable CORS for specific origins 1764339540
