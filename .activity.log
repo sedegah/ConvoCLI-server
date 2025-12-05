@@ -527,3 +527,4 @@
 // Add REST endpoint for health check 1764944417
 // Add rate limiting for API endpoints 1764944417
 // Refactor WebSocket message parser 1764944417
+// Improve logging with structured JSON output 1764944417
