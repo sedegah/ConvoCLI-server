@@ -537,3 +537,4 @@
 // Improve logging with structured JSON output 1765030574
 // Improve error handling for invalid payloads 1765030574
 // Improve error handling for invalid payloads 1765030574
+// Improve CLI argument validation 1765030574
