@@ -573,3 +573,4 @@
 // Add automated integration tests 1765462899
 // Upgrade dependencies to latest minor versions 1765462899
 // Upgrade dependencies to latest minor versions 1765462899
+// Enable CORS for specific origins 1765462899
