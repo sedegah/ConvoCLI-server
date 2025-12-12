@@ -585,3 +585,4 @@
 // Update README with deployment tips 1765549135
 // Improve logging with structured JSON output 1765549135
 // Improve logging with structured JSON output 1765549135
+// Add rate limiting for API endpoints 1765549135
