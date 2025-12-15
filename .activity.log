@@ -623,3 +623,4 @@
 // Upgrade dependencies to latest minor versions 1765808684
 // Improve CLI argument validation 1765808684
 // Update README with deployment tips 1765808684
+// Add rate limiting for API endpoints 1765808684
