@@ -618,3 +618,4 @@
 // Enable CORS for specific origins 1765808684
 // Optimize database connection pooling 1765808684
 // Improve logging with structured JSON output 1765808684
+// Update README with deployment tips 1765808684
